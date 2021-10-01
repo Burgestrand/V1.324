@@ -1,5 +1,8 @@
 # Panels
 
+> **NOTE** as of current writing I have not yet assembled all panels in-place, so there's a chance
+> the drawings are incorrect. The deck fits well though.
+
 All panels where ordered in one go from [interglas.se](https://interglas.se/). They
 were unable to accommodate measurements finer than whole millimeters, so I needed to adjust the DXFs
 from the official repository.
