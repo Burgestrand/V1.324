@@ -1,6 +1,6 @@
 # Panels
 
-I ordered all panels in one go from [interglas.se](https://interglas.se/shop/frontpage.html). They
+I ordered all panels in one go from [interglas.se](https://interglas.se/). They
 were unable to accommodate measurements finer than whole millimeters, so I needed to adjust the DXFs
 from the official repository.
 
@@ -12,14 +12,20 @@ redo entirely. I was in a hurry so the bottom panel is the one with the widest m
 
 ## The Order
 
+This is the order as I sent it to interglas.
+
 - Three sheets of laser-cut acrylic.
-  1. [Bottom](./Bottom.pdf) (369x369, [3PMMACl101][])
-  2. [Deck](./Deck.pdf) (369x369, [3PMMA1750PINK][])
-  3. [Rear](./Rear.pdf) (383x473, [3PMMA1750PINK][])
+  1. [Bottom](./Bottom.pdf) (369x369, [3PMMACl101][]) — 210 SEK.
+  2. [Deck](./Deck.pdf) (369x369, [3PMMA1750PINK][]) — 333 SEK.
+  3. [Rear](./Rear.pdf) (383x473, [3PMMA1750PINK][]) — 333 SEK.
 - Five sheets of cut-to-measure acrylic.
-  1. 2 x [4CE03CUT][], 191x473 (two doors)
-  2. 2 x [4CE03CUT][], 383x473 (two sides)
-  3. 1 x [4CE03CUT][], 383x383 (one top)
+  1. 2 x [4CE03CUT][], 191x473 (two doors) — 256 SEK.
+  2. 2 x [4CE03CUT][], 383x473 (two sides) — 336 SEK.
+  3. 1 x [4CE03CUT][], 383x383 (one top) — 136 SEK.
+
+Shipping was 179 SEK.
+
+Total order including 25% VAT was ~1800 SEK.
 
 [3PMMACl101]: https://interglas.se/shop/akryl-klar-3-500p.html
 [3PMMA1750PINK]: https://interglas.se/shop/3-mm-spegel-4159p.html
