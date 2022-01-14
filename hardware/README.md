@@ -8,6 +8,16 @@
 - **PSU:** [Mean Well RSP-200-24](https://www.meanwell-web.com/en-gb/ac-dc-single-output-enclosed-power-supply-output-rsp--200--24).
 - **Bed:** MIC6 Cast Aluminum bed.
 
+## Everything is stock, until it isn't...
+
+- [eddies LED bar clips](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/eddie/LED_Bar_Clip) to mount 5050 LEDs to the inside of the top extrusions.
+- [nevermore micro v5 duo](https://github.com/nevermore3d/Nevermore_Micro) for cleaning the chamber air.
+- [VEFACH](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/KevinAkaSam/VEFACH) for cleaning the exhaust air.
+- [decontaminator and nozzle scrubber](https://github.com/VoronDesign/VoronUsers/tree/master/printer_mods/edwardyeeks/Decontaminator_Purge_Bucket_&_Nozzle_Scrubber) for cleaning the nozzle when calibrating in before a print.
+- 3x5 angle wago mount (STL?) for mains wiring.
+- 6x2 wago mount for bed wiring (STL?).
+- right angle decontaminator bucket mount (STL?).
+
 ## Sourcing Information
 
 All parts were sourced individually and not from a kit. Notable sources are:
