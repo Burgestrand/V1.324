@@ -6,5 +6,6 @@ https://user-images.githubusercontent.com/99166/149587983-16803544-f759-469c-964
 
 ## Repository Contents
 
-- See [build/](./build/) for information about the build.
-- See [klipper_config](./klipper_config/) for my current Klipper configuration.
+- [./hardware/](./hardware) contains information about the build, the individual parts, and how I sourced everything.
+- [./software/](./software) contains information about the operating system and klipper config.
+- [./gallery/](./gallery) contains a series of images and videos.
