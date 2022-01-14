@@ -4,6 +4,9 @@
 
 https://user-images.githubusercontent.com/99166/149587983-16803544-f759-469c-964e-828752e986d1.mp4
 
+You want to build something like this? You should [join the discord](https://discord.com/invite/voron). You can find lots of
+good help in there. I'm probably there too!
+
 ## Repository Contents
 
 - [./hardware/](./hardware) contains information about the build, the individual parts, and how I sourced everything.
