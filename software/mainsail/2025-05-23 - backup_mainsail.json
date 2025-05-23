@@ -1,0 +1,231 @@
+{
+  "general": { "printername": "Voron V1.324" },
+  "console": { "direction": "table", "height": 500 },
+  "gcodehistory": {
+    "entries": []
+  },
+  "control": {
+    "style": "bars",
+    "selectedCrossStep": 2,
+    "hideDuringPrint": true,
+    "enableXYHoming": false,
+    "extruder": { "feedrate": 10, "feedamount": 50 }
+  },
+  "dashboard": {
+    "nonExpandPanels": {
+      "desktop": ["machine-settings-panel", "extruder-control-panel"],
+      "mobile": [
+        "machine-settings-panel",
+        "miscellaneous-panel",
+        "extruder-control-panel"
+      ],
+      "widescreen": [
+        "toolhead-control-panel",
+        "extruder-control-panel",
+        "miscellaneous-panel"
+      ]
+    }
+  },
+  "gcodeViewer": {
+    "klipperCache": {
+      "kinematics": "corexy",
+      "axis_maximum": [247.9, 255.9, 235, 0],
+      "axis_minimum": [-3.1, -3.1, -2.5, 0]
+    }
+  },
+  "macros": {
+    "mode": "expert",
+    "macrogroups": {
+      "073f7695-a40a-48cd-bb6f-1a1d0844a84b": {
+        "name": "1. Macros",
+        "color": "primary",
+        "colorCustom": "#fff",
+        "showInStandby": true,
+        "showInPause": true,
+        "showInPrinting": false,
+        "macros": [
+          {
+            "pos": 1,
+            "name": "PREHEAT",
+            "color": "success",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 2,
+            "name": "Dock_Probe",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 3,
+            "name": "Attach_Probe",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 4,
+            "name": "NEVERMORE_ON",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 5,
+            "name": "NEVERMORE_OFF",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          }
+        ]
+      },
+      "3ba3affb-2c8e-4e4c-a3d7-23ec7b570635": {
+        "name": "4. Calibrate",
+        "color": "secondary",
+        "colorCustom": "#fff",
+        "showInStandby": true,
+        "showInPause": true,
+        "showInPrinting": false,
+        "macros": [
+          {
+            "pos": 1,
+            "name": "TEST_SPEED",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 2,
+            "name": "MAYBE_HOME",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 3,
+            "name": "MAYBE_Z_TILT_ADJUST",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 4,
+            "name": "CALIBRATE",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          }
+        ]
+      },
+      "b0691936-49d0-49f7-876b-add01b5f1819": {
+        "name": "3. Moves",
+        "color": "secondary",
+        "colorCustom": "#fff",
+        "showInStandby": true,
+        "showInPause": true,
+        "showInPrinting": false,
+        "macros": [
+          {
+            "pos": 1,
+            "name": "MOVE_TO_TINKER",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 2,
+            "name": "MOVE_TO_NOZZLE_CHANGE",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 3,
+            "name": "MOVE_TO_FILAMENT_RELOAD",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          }
+        ]
+      },
+      "605c7083-f84f-47ef-aecc-98a4ac9120d7": {
+        "name": "2. Filament",
+        "color": "warning",
+        "colorCustom": "#fff",
+        "showInStandby": true,
+        "showInPause": true,
+        "showInPrinting": false,
+        "macros": [
+          {
+            "pos": 1,
+            "name": "PRIME_EXTRUDER",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 2,
+            "name": "CLEAR_EXTRUDER",
+            "color": "group",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          },
+          {
+            "pos": 3,
+            "name": "EXTRUDE",
+            "color": "error",
+            "showInStandby": true,
+            "showInPrinting": true,
+            "showInPause": true
+          }
+        ]
+      }
+    }
+  },
+  "presets": {
+    "presets": {
+      "b42be48e-9bd0-42ef-a354-9a55953439c0": {
+        "id": null,
+        "name": "Preheat ABS",
+        "values": {
+          "extruder": { "bool": false, "type": "heater", "value": 0 },
+          "heater_bed": { "bool": false, "type": "heater", "value": "110" }
+        },
+        "gcode": "SET_HEATER_TEMPERATURE HEATER=bed TARGET=110\nM117 Preheating ABS.\n\nTEMPERATURE_WAIT SENSOR=extruder MINIMUM=50\nM117 Extruder is now at 50C!"
+      }
+    }
+  },
+  "uiSettings": {
+    "confirmOnEmergencyStop": true,
+    "confirmOnPowerDeviceChange": true,
+    "logo": "#FD08FF",
+    "primary": "#FF04E5",
+    "displayCancelPrint": false,
+    "boolHideUploadAndPrintButton": true
+  },
+  "view": {
+    "configfiles": { "countPerPage": -1 },
+    "tempchart": {
+      "autoscale": false,
+      "hideMcuHostSensors": false,
+      "hideMonitors": false
+    },
+    "history": { "countPerPage": 50 }
+  }
+}
