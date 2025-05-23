@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -ex
+
+git subtree push --prefix=software/voron.local voron main

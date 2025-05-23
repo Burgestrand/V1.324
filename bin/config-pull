@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -ex
+
+git subtree pull --prefix=software/voron.local voron main
